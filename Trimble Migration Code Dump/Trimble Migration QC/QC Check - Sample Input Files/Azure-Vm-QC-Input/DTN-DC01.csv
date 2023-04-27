@@ -1,0 +1,34 @@
+Parameter,ExpectedValue
+VMName,DTN-DC01
+CPU,2
+MemoryinGB,4
+AzureVMType,Standard_F2s_V2
+ManagedDisk,TRUE
+OSDiskInGB,128
+OSDiskcaching,readwrite
+DataDiskInGB,NA
+DataDiskcaching,readonly
+DataDiskcaching1,readonly
+DataDiskcaching2,NA
+DataDiskcaching2,NA
+DataDiskcaching3,NA
+TempDisk,NA
+Operating System,Windows (Windows Server 2012 R2 Standard)
+Tag - Product | product-name,directcloud
+Tag - business-unit,tte
+Tag - team,css
+Tag - billing,prod
+Tag - environment,prod
+Tag - Primary-contact-email,keith_weitz@trimble.com
+Tag - Primary-contact-name,Keith Weitz
+Tag - customer | customer-name,16502966
+Tag - automation-opt-in,no
+RGLock,FALSE
+IPAddress,172.22.158.36
+GuestLevelMonitoring,TRUE
+Storage account,dtnstorageaccount
+BackupVault,dtnrecoveryvault
+vNet,Vnet-Eastus2-DTN
+SubnetName,Subnet-Eastus2-DTN
+HybridBenefit,TRUE
+ResourceGroup,DTN_Dillon_Transportation_LLC
